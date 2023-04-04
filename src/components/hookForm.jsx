@@ -10,6 +10,7 @@ const MyForm = props => {
     const createUser = e => {
         e.preventDefault();
         const newUser = {firstname, lastname, email, password};
+        console.log("Hello, " + newUser)
     };
 
     return(
